@@ -1,6 +1,8 @@
 #! P:\"CSE413-Big Data and IoT Lab"\myenv\Scripts\python.exe
-import numpy as np
+import pandas as pd
 
-arr = np.array(42)
+a = [1, 7, 2]
 
-print(arr)
+myvar = pd.Series(a)
+
+print(myvar)
